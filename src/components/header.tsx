@@ -89,7 +89,9 @@ const Profile = ({ logOut }: { logOut: () => void }) => {
           <Github className='mr-2 h-4 w-4' />
           <Link
             className='text-lg'
-            href='https://github.com/aps-webdev/ht-client'>
+            href='https://github.com/aps-webdev/ht-client'
+            rel='noopener noreferrer'
+            target='_blank'>
             GitHub client
           </Link>
         </DropdownMenuItem>
@@ -97,7 +99,9 @@ const Profile = ({ logOut }: { logOut: () => void }) => {
           <Github className='mr-2 h-4 w-4' />
           <Link
             className='text-lg'
-            href='https://github.com/aps-webdev/ht-server'>
+            href='https://github.com/aps-webdev/ht-server'
+            rel='noopener noreferrer'
+            target='_blank'>
             Github server
           </Link>
         </DropdownMenuItem>
